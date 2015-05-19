@@ -51,7 +51,7 @@ before layers configuration."
    ;; directory. A string value must be a path to a .PNG file.
    ;; If the value is nil then no banner is displayed.
    ;; dotspacemacs-startup-banner 'official
-   dotspacemacs-startup-banner 'official
+   dotspacemacs-startup-banner 'random
    ;; t if you always want to see the changelog at startup
    dotspacemacs-always-show-changelog t
    ;; List of items to show in the startup buffer. If nil it is disabled.
@@ -70,7 +70,8 @@ before layers configuration."
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 13
+                               ;"DejaVu Sans Mono"
+                               :size 18
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
