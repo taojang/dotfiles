@@ -61,8 +61,8 @@ before layers configuration."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(monokai
-                         leuven
+   dotspacemacs-themes '(leuven
+                         monokai
                          solarized-light
                          solarized-dark
                          zenburn)
@@ -141,13 +141,12 @@ before layers configuration."
  This function is called at the very end of Spacemacs initialization after
 layers configuration."
   (setq magit-last-seen-setup-instructions "1.4.0")
+  ;; org-mode settings
+  (setq org-agenda-files (list "~/Documents/org/"))
+  (setq org-directory "~/Documents/org/")
+  (setq org-mobile-directory "~/Dropbox/mobile_org/")
+  (setq org-mobile-inbox-for-pull "~/Documents/org/inbox.org")
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(org-agenda-files (quote ("~/Documents/org/"))))
