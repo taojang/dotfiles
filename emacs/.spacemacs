@@ -26,6 +26,7 @@
      clojure
      scala
      python
+     haskell
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
