@@ -20,6 +20,7 @@
      ;; better-defaults
      (git :variables
           git-gutter-use-fringe t)
+     version-control
      markdown
      org
      syntax-checking
@@ -72,8 +73,8 @@ before layers configuration."
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '(;"Source Code Pro"
-                               "DejaVu Sans Mono"
-                               :size 16
+                               "Ubuntu Mono"
+                               :size 18
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
