@@ -8,6 +8,8 @@ bindkey -e
 typeset -U path
 path=(~/bin $path)
 
+#haskell
+path=(~/.cabal/bin $path)
 #heroku
 path=(/usr/local/heroku/bin $path)
 #gem home
