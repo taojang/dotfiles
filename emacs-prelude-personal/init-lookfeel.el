@@ -8,7 +8,7 @@
 ;(load-theme 'solarized-dark t)
 ;(load-theme 'tango-dark t)
 ;(load-theme 'leuven)
-(load-theme 'solarized-light t)
+;(load-theme 'solarized-light t)
 
 (setq initial-frame-alist '(
                             (font . "Source Code Pro for Powerline-12")
